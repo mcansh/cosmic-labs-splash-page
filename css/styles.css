@@ -179,18 +179,32 @@ i {
   height: 35px;
   border: 2px solid #3A4553;
   -webkit-transition: 0.5s;
-  transition: 0.5s; }
+  transition: 0.5s;
+  margin-right: 15px; }
   .btn:hover {
     border-color: white; }
 
-.img {
+.img-1 {
   background: url("https://pbs.twimg.com/profile_images/570871858028941312/MPGCKwt_.jpeg") center;
   background-size: 40px 40px;
   -webkit-filter: blur(1.5px);
           filter: blur(1.5px);
   border-radius: 3; }
 
-.btn:hover > .img {
+.img-2 {
+  background: url("https://pbs.twimg.com/profile_images/499802552444002304/DOFJYVaV.jpeg");
+  background-size: 40px 40px;
+  -webkit-filter: blur(1.5px);
+          filter: blur(1.5px);
+  border-radius: 3; }
+
+.btn:hover > .img-1 {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-transition: 0.8s;
+  transition: 0.8s; }
+
+.btn:hover > .img-2 {
   -webkit-filter: blur(0px);
           filter: blur(0px);
   -webkit-transition: 0.8s;
