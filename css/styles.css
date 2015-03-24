@@ -1,5 +1,5 @@
 html, body {
-  background-color: #516073;
+  background-color: #444E64;
   width: 100%; }
 
 body {
@@ -52,16 +52,16 @@ a {
 h1 {
   font-family: "intro_thinregular", helvetica, arial, sans-serif;
   font-size: 32px;
-  color: #F0EBE5; }
+  color: #FDFFFF; }
 
 .description {
   font-family: "intro_lightregular", helvetica, arial, sans-serif;
   font-size: 15px;
-  color: #F0EBE5;
+  color: #FDFFFF;
   line-height: 24px;
   margin-bottom: 20px; }
   .description a {
-    color: #5ABF73;
+    color: #c7a456;
     font-family: "intro_bookregular";
     font-weight: bold;
     font-size: 16px; }
@@ -75,8 +75,8 @@ h1 {
   margin-top: 20px; }
 
 .twitter {
-  border: 2px solid #5ABF73;
-  background-color: #5ABF73;
+  border: 2px solid #DD025A;
+  background-color: #DD025A;
   border-radius: 2px;
   text-indent: 0;
   display: inline-block;
