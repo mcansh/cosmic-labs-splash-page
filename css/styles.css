@@ -74,6 +74,19 @@ h1 {
   color: #A8B3B8;
   margin-top: 20px; }
 
+.buttons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  .buttons .fa {
+    line-height: 1.6; }
+
 .contact {
   border: 2px solid #DD025A;
   background-color: #DD025A;
@@ -116,7 +129,7 @@ h1 {
   font-weight: bold;
   height: 35px;
   line-height: 35px;
-  width: 145px;
+  width: 40px;
   text-decoration: none;
   text-align: center;
   -webkit-transition: 0.5s;
