@@ -89,7 +89,7 @@ h1 {
     color: #3A4553;
     -webkit-transition: 0.5s;
     transition: 0.5s; }
-  .buttons .list:hover > i {
+  .buttons .github:hover > i {
     color: white;
     -webkit-transition: 0.8s;
     transition: 0.8s; }
@@ -125,9 +125,9 @@ h1 {
   position: relative;
   top: 1px; }
 
-.list {
+.github {
   border: 2px solid #3A4553;
-  border-radius: 2px;
+  border-radius: 3px;
   text-indent: 0;
   display: inline-block;
   color: #FFF;
@@ -141,16 +141,58 @@ h1 {
   text-align: center;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-right: 15px; }
 
-.list:hover {
+.github:hover {
   border-color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s; }
 
-.list:active {
+.github:active {
   position: relative;
   top: 1px; }
+
+i {
+  border-radius: 3px; }
+
+.profile {
+  text-indent: 0;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  -webkit-transition: 0.5s;
+          transition: 0.5s; }
+
+.profile:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+
+.profile:active {
+  position: relative;
+  top: 1px; }
+
+.btn {
+  overflow: hidden;
+  border-radius: 3px;
+  width: 40px;
+  height: 35px;
+  border: 2px solid #3A4553; }
+  .btn:hover {
+    border-color: white; }
+
+.img {
+  background: url("https://pbs.twimg.com/profile_images/570871858028941312/MPGCKwt_.jpeg");
+  background-size: 40px 40px;
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  border-radius: 3; }
+
+.btn:hover > .img {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-transition: 0.8s;
+  transition: 0.8s; }
 
 @media screen and (max-width: 600px) {
   .structure {
@@ -181,11 +223,6 @@ h1 {
     margin-right: 5px;
     margin-left: 3%;
     width: 43%; }
-
-  .list {
-    margin-left: 5px;
-    width: 43%;
-    border-color: white; }
 
   .footer {
     text-align: center;
