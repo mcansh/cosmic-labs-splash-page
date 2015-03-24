@@ -61,10 +61,10 @@ h1 {
   line-height: 24px;
   margin-bottom: 20px; }
   .description a {
-    color: #c7a456;
+    color: #DAEAEF;
     font-family: "intro_bookregular";
     font-weight: bold;
-    font-size: 16px; }
+    font-size: 15px; }
 
 .footer {
   font-family: Arial;
@@ -74,7 +74,7 @@ h1 {
   color: #A8B3B8;
   margin-top: 20px; }
 
-.twitter {
+.contact {
   border: 2px solid #DD025A;
   background-color: #DD025A;
   border-radius: 2px;
@@ -94,14 +94,14 @@ h1 {
   transition: 0.5s;
   text-transform: uppercase; }
 
-.twitter:hover {
+.contact:hover {
   border: 2px solid #ECECEC;
   background-color: #ECECEC;
   color: black;
   -webkit-transition: 0.5s;
   transition: 0.5s; }
 
-.twitter:active {
+.contact:active {
   position: relative;
   top: 1px; }
 
