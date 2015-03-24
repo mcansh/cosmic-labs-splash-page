@@ -177,15 +177,17 @@ i {
   border-radius: 3px;
   width: 40px;
   height: 35px;
-  border: 2px solid #3A4553; }
+  border: 2px solid #3A4553;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
   .btn:hover {
     border-color: white; }
 
 .img {
-  background: url("https://pbs.twimg.com/profile_images/570871858028941312/MPGCKwt_.jpeg");
+  background: url("https://pbs.twimg.com/profile_images/570871858028941312/MPGCKwt_.jpeg") center;
   background-size: 40px 40px;
-  -webkit-filter: blur(2px);
-          filter: blur(2px);
+  -webkit-filter: blur(1.5px);
+          filter: blur(1.5px);
   border-radius: 3; }
 
 .btn:hover > .img {
