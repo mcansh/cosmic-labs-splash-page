@@ -86,9 +86,13 @@ h1 {
           flex-direction: row; }
   .buttons .fa {
     line-height: 1.6;
-    color: #3A4553; }
+    color: #3A4553;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
   .buttons .list:hover > i {
-    color: white; }
+    color: white;
+    -webkit-transition: 0.8s;
+    transition: 0.8s; }
 
 .contact {
   border: 2px solid #DD025A;
