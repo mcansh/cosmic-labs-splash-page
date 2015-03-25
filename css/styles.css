@@ -86,7 +86,7 @@ h1 {
       -ms-flex-direction: row;
           flex-direction: row; }
   .buttons .fa {
-    line-height: 1.45;
+    line-height: 1.6;
     color: #3A4553;
     -webkit-transition: 0.5s;
     transition: 0.5s; }
