@@ -106,7 +106,7 @@ h1 {
   font-size: 11px;
   font-weight: bold;
   height: 40px;
-  line-height: 35px;
+  line-height: 37px;
   width: 145px !important;
   text-decoration: none;
   text-align: center;
@@ -193,7 +193,7 @@ i {
   border-radius: 3; }
 
 .img-2 {
-  background: url("https://pbs.twimg.com/profile_images/499802552444002304/DOFJYVaV.jpeg");
+  background: url("../img/damon.jpg");
   background-size: 40px 40px;
   -webkit-filter: blur(1.5px);
           filter: blur(1.5px);
