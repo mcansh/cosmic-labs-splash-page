@@ -15,7 +15,32 @@
 	<link href="img/app-icon/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
 	<link href="img/app-icon/icon-hires.png" rel="icon" sizes="192x192" />
 	<link href="img/app-icon/icon-normal.png" rel="icon" sizes="128x128" />
+	
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<!-- TOOLTIPS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+	<script src="js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+	$(".tip-top").tooltip({
+	    placement : 'top'
+	});
+	$(".tip-right").tooltip({
+	    placement : 'right'
+	});
+	$(".tip-bottom").tooltip({
+	    placement : 'bottom'
+	});
+	$(".tip-left").tooltip({
+	    placement : 'left'
+	});
+	});
+	</script>
 </head>
 <body>
     <div class="structure">
@@ -32,12 +57,13 @@
                 <a href="#" target="_blank" class="contact">Contact Us</a>
             	<a href="#" target="_blank" class="github"><i class="fa fa-2x fa-github"></i></a>
                 <div class="btn">
-                    <a href="#" target="_blank" class="profile img-1"></a>
+                    <!-- <a href="#" target="_blank" title="Founder" class="profile img-1"></a> -->
+                    <a href="#" data-toggle="tooltip" class="tip-bottom profile img-1" data-original-title="Founder"></a>
                 </div>
                 <div class="btn">
-                    <a href="#" target="_blank" class="profile img-2"></a>
+                    <a href="#" data-toggle="tooltip" class="tip-top profile img-2" data-original-title="Software Engineer"></a>
                 </div>
-            </div>    
+            </div>
             <p class="footer">Designed in Canada<br> Made in the United States</p>
     	</div>
     </div>
