@@ -1,0 +1,196 @@
+body {
+  font-family: "intro_bookregular";
+  height: calc(100vh - 100px);
+  background: #444E64;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.structure {
+  max-width: 420px;
+  margin: auto; }
+  .structure .logo {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+    background: url("http://pickmoments.io/img/icon.svg") no-repeat;
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    display: inline;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .structure h1 {
+    font-family: "intro_thinregular";
+    color: #FDFFFF; }
+  .structure a {
+    color: #DAEAEF;
+    text-decoration: none; }
+    .structure a:hover {
+      color: #DAEAEF;
+      text-decoration: none; }
+  .structure .about {
+    font-family: "intro_lightregular", helvetica, arial, sans-serif;
+    font-size: 15px;
+    color: #FDFFFF;
+    line-height: 24px;
+    margin-bottom: 20px; }
+  .structure .buttons {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+    .structure .buttons .profile {
+      text-indent: 0;
+      display: inline-block;
+      height: 45px;
+      width: 45px;
+      -webkit-transition: 0.5s;
+              transition: 0.5s; }
+      .structure .buttons .profile:hover {
+        -webkit-transition: 0.5s;
+                transition: 0.5s; }
+        .structure .buttons .profile:hover:active {
+          position: relative;
+          top: 1px; }
+    .structure .buttons .img-1 {
+      background: url("https://pbs.twimg.com/profile_images/570871858028941312/MPGCKwt_.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-filter: blur(1.5px);
+              filter: blur(1.5px);
+      border-radius: 3; }
+    .structure .buttons .img-2 {
+      background: url("http://cosmiclabs.io/img/damon.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      -webkit-filter: blur(1.5px);
+              filter: blur(1.5px);
+      border-radius: 3; }
+    .structure .buttons .btn {
+      overflow: hidden;
+      border-radius: 3px;
+      width: 45px;
+      height: 45px;
+      border: 2px solid #3A4553;
+      -webkit-transition: 0.5s;
+              transition: 0.5s;
+      margin-right: 15px; }
+      .structure .buttons .btn:hover {
+        border-color: white; }
+      .structure .buttons .btn:hover > .img-1 {
+        -webkit-filter: blur(0px);
+                filter: blur(0px);
+        -webkit-transition: 0.5s;
+                transition: 0.5s; }
+      .structure .buttons .btn:hover > .img-2 {
+        -webkit-filter: blur(0px);
+                filter: blur(0px);
+        -webkit-transition: 0.5s;
+                transition: 0.5s; }
+    .structure .buttons .fa {
+      color: #3A4553;
+      -webkit-transition: 0.5s;
+              transition: 0.5s; }
+    .structure .buttons .github:hover > i {
+      color: white;
+      -webkit-transition: 0.5s;
+              transition: 0.5s; }
+    .structure .buttons .github {
+      border: 2px solid #3A4553;
+      border-radius: 3px;
+      font-size: 11px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      height: 45px;
+      width: 45px;
+      -webkit-transition: 0.5s;
+              transition: 0.5s;
+      margin-right: 15px; }
+    .structure .buttons .github:hover {
+      border-color: white;
+      -webkit-transition: 0.5s;
+              transition: 0.5s; }
+    .structure .buttons .github:active {
+      position: relative;
+      top: 1px; }
+    .structure .buttons .contact {
+      border: 2px solid #DD025A;
+      background-color: #DD025A;
+      border-radius: 2px;
+      text-indent: 0;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      color: #FFF;
+      font-family: Arial;
+      font-size: 11px;
+      font-weight: bold;
+      height: 45px;
+      line-height: 35px;
+      width: 145px;
+      text-decoration: none;
+      margin-right: 15px;
+      -webkit-transition: 0.5s;
+              transition: 0.5s;
+      text-transform: uppercase; }
+      .structure .buttons .contact:hover {
+        background: white;
+        color: black;
+        border-color: white; }
+    .structure .buttons .tooltip-inner {
+      background: #DD025A; }
+    .structure .buttons .tooltip {
+      font-family: "intro_thinregular"; }
+    .structure .buttons .tooltip.bottom .tooltip-arrow {
+      border-bottom-color: #DD025A; }
+    .structure .buttons .tooltip.top .tooltip-arrow {
+      border-top-color: #DD025A; }
+    .structure .buttons .tooltip.right .tooltip-arrow {
+      border-right-color: #DD025A; }
+  .structure .footer {
+    font-family: Arial;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    color: #A8B3B8;
+    margin-top: 20px; }
