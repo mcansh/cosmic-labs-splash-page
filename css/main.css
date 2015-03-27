@@ -174,16 +174,13 @@ body {
     font-weight: bold;
     color: #A8B3B8;
     margin-top: 20px; }
-
-@media screen and (max-width: 600px) {
-  .btn {
-    border: 2px solid #FDFFFF !important; }
-    .btn .img-2, .btn .img-1 {
-      -webkit-filter: blur(0px) !important;
-              filter: blur(0px) !important; }
-
-  .fa {
-    color: #FDFFFF !important; }
-
-  .github {
-    border: 2px solid #FDFFFF !important; } }
+  @media screen and (max-width: 600px) {
+    .structure .btn {
+      border: 2px solid #FDFFFF !important; }
+      .structure .btn .img-2, .structure .btn .img-1 {
+        -webkit-filter: blur(0px) !important;
+                filter: blur(0px) !important; }
+    .structure .fa {
+      color: #FDFFFF !important; }
+    .structure .github {
+      border: 2px solid #FDFFFF !important; } }
