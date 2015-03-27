@@ -1,3 +1,6 @@
+html.workinghover .rollover:hover {
+  border-color: white; }
+
 body {
   font-family: "intro_bookregular";
   height: calc(100vh - 100px);
@@ -24,12 +27,10 @@ body {
   max-width: 420px;
   margin: auto; }
   .structure .logo {
-    -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
-    background: url("http://pickmoments.io/img/icon.svg") no-repeat;
+    background: url("../img/logo.png") no-repeat;
     background-size: cover;
-    height: 35px;
-    width: 35px;
+    height: 45px;
+    width: 45px;
     display: inline;
     display: -webkit-box;
     display: -webkit-flex;
@@ -166,16 +167,6 @@ body {
         background: white;
         color: black;
         border-color: white; }
-    .structure .buttons .tooltip-inner {
-      background: #DD025A; }
-    .structure .buttons .tooltip {
-      font-family: "intro_thinregular"; }
-      .structure .buttons .tooltip.bottom .tooltip-arrow {
-        border-bottom-color: #DD025A; }
-      .structure .buttons .tooltip.top .tooltip-arrow {
-        border-top-color: #DD025A; }
-      .structure .buttons .tooltip.right .tooltip-arrow {
-        border-right-color: #DD025A; }
   .structure .footer {
     font-family: Arial;
     text-transform: uppercase;

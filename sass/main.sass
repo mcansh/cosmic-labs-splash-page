@@ -4,6 +4,9 @@ $lightblue: #DAEAEF
 $offwhite: #FDFFFF
 $gray: #A8B3B8
 
+html.workinghover .rollover:hover 
+  border-color: white
+
 
 body
   font-family: "intro_bookregular"
@@ -19,11 +22,11 @@ body
   margin: auto
 
   .logo
-    filter: grayscale(100%)
-    background: url("http://pickmoments.io/img/icon.svg") no-repeat
+    // filter: grayscale(100%)
+    background: url("../img/logo.png") no-repeat
     background-size: cover
-    height: 35px
-    width: 35px
+    height: 45px
+    width: 45px
     display: inline
     display: flex
 
@@ -135,20 +138,6 @@ body
         color: black
         border-color: white
 
-    .tooltip-inner
-      background: $pink
-
-    .tooltip
-      font-family: "intro_thinregular"
-
-      &.bottom .tooltip-arrow
-        border-bottom-color: $pink
-
-      &.top .tooltip-arrow
-        border-top-color: $pink
-
-      &.right .tooltip-arrow
-        border-right-color: $pink
 
   .footer
     font-family: Arial

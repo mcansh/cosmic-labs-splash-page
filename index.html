@@ -5,21 +5,33 @@
 	<title>Cosmic Labs</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="css/main.css" rel="stylesheet">
+	<link href="css/tooltip.css" rel="stylesheet">
 	<link rel="icon" href="img/favicon.png">
 	<!-- font awesome  -->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<!-- font -->
 	<link href="css/fonts.css" rel="stylesheet">
 
-	<!-- TOOLTIPS -->
-	<link rel="stylesheet" href="http://cosmiclabs.io/css/bootstrap.css">
-
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
-	<script src="http://cosmiclabs.io/js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
-	<script src="http://cosmiclabs.io/js/tooltip-position.js"></script>
-</head><body>
+	<script src="js/tooltip-position.js"></script>
+	<script>
+		// $('[rel="tooltip"]').tooltip();
+
+		function isTouchDevice(){ return true == ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch); } if(isTouchDevice()===false) { jQuery(function(e){e("a").tooltip({html:true,container:"body"})}); } 
+		if(isTouchDevice()===false) {
+		    $("[rel='tooltip']").tooltip();
+		}
+		 Modernizr.addTest('workinghover', function ()
+		 {
+		      // Safari doesn't 'announce' to the world that it behaves badly with :hover
+		      // so we have to check the userAgent  
+		      return navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? false : true;
+		 });
+	</script>
+</head><body class="workinghover">
 	<div class="structure">
 		<div class="logo"></div>
 		<h1>Cosmic Labs</h1>
@@ -29,13 +41,14 @@
 		<div class="buttons">
 			<a href="#" target="_blank" class="contact">Contact Us</a>
 			<div class="btn">
-			    <a href="#" data-toggle="tooltip" class="tip-bottom profile img-1" data-original-title="Software Architect"></a>
+			    <a href="http://google.com" target="_blank" rel="tooltip" data-placement="bottom" class="profile img-1" data-title="Software Architect"></a>
 			</div>
+			
 			<div class="btn">
-			    <a href="#" data-toggle="tooltip" class="tip-top profile img-2" data-original-title="Software Engineer"></a>
+			    <a href="http://google.com" target="_blank" rel="tooltip" data-placement="top" class="profile img-2" data-original-title="Software Engineer"></a>
 			</div>
-			<!-- <a href="#" target="_blank" class="github"><i class="fa fa-2x fa-github"></i></a> -->
-			<a href="#" data-toggle="tooltip" class="tip-right github" data-original-title="Fork Us"><i class="fa fa-2x fa-github"></i></a>
+			
+			<a href="http://google.com" target="_blank" rel="tooltip" class="github" data-original-title="Fork Us"><i class="fa fa-2x fa-github"></i></a>
 		</div>
 		<p class="footer">Designed in Canada<br> Made in the United States</p>
 	</div>
