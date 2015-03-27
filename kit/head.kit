@@ -16,7 +16,7 @@
 
 	<script src="js/tooltip-position.js"></script>
 	<script>
-		// $('[rel="tooltip"]').tooltip();
+		$('[rel="tooltip"]').tooltip();
 
 		function isTouchDevice(){ return true == ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch); } if(isTouchDevice()===false) { jQuery(function(e){e("a").tooltip({html:true,container:"body"})}); } 
 		if(isTouchDevice()===false) {
