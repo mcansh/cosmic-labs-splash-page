@@ -175,7 +175,7 @@ body {
     color: #A8B3B8;
     margin-top: 20px; }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .btn {
     border: 2px solid #FDFFFF !important; }
     .btn .img-2, .btn .img-1 {
