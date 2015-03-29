@@ -2,7 +2,7 @@ html.workinghover .rollover:hover {
   border-color: white; }
 
 body {
-  font-family: "intro_bookregular";
+  font-family: "intro_bookregular", sans-serif;
   height: calc(100vh - 100px);
   background: #444E64;
   display: -webkit-box;
@@ -37,7 +37,7 @@ body {
     display: -ms-flexbox;
     display: flex; }
   .structure h1 {
-    font-family: "intro_thinregular";
+    font-family: "intro_thinregular", sans-serif;
     color: #FDFFFF; }
   .structure a {
     color: #DAEAEF;
@@ -46,7 +46,7 @@ body {
       color: #DAEAEF;
       text-decoration: none; }
   .structure .about {
-    font-family: "intro_lightregular", helvetica, arial, sans-serif;
+    font-family: "intro_lightregular", sans-serif;
     font-size: 15px;
     color: #FDFFFF;
     line-height: 24px;
