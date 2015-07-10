@@ -17,7 +17,8 @@ nav {
   line-height: 2.5em; }
   nav a {
     margin: 0 20px;
-    font-weight: 300; }
+    font-weight: 300;
+    color: black; }
   nav .left {
     display: -webkit-box;
     display: -webkit-flex;
