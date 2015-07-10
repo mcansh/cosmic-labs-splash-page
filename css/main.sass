@@ -20,17 +20,20 @@ nav
     font-weight: 300
     color: black
     transition: 100ms all ease-in-out
-    &:hover:not(:first-child)
+    &:hover
       border-bottom: 1px solid black
+  .right
+    a
+      padding: 15.25px 0
   .left
     display: flex
     flex-grow: 1
-    .brand
-      background:
-        image: url(../img/logo.svg)
-        size: cover
-        position: center
-      +size(50px)
+  .brand
+    background:
+      image: url(../img/logo.svg)
+      size: cover
+      position: center
+    +size(50px)
 header
   display: flex
   flex-direction: column
