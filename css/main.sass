@@ -1,0 +1,57 @@
+@import "bourbon"
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700)
+
+*
+  margin: 0
+
+body
+  font:
+    family: "Lato", sans-serif
+
+a
+  text-decoration: none
+
+nav
+  display: flex
+  padding: 25px 60px
+  line-height: 2.5em
+  a
+    margin: 0 20px
+    font-weight: 300
+  .left
+    display: flex
+    flex-grow: 1
+    .brand
+      background:
+        image: url(../img/logo.svg)
+        size: cover
+        position: center
+      +size(50px)
+header
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  height: 600px
+  h1
+    font:
+      size: 2.5em
+      weight: 300
+    padding: 0 0 20px 0
+  h2
+    font:
+      size: 1.5em
+      weight: 300
+    padding: 0
+
+  a.cta
+    color: white
+    margin: 40px 0
+    padding: 10px 40px
+    background: #44a844
+    font:
+      size: 1.2em
+
+
+
+// add mobile media query
