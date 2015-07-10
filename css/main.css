@@ -24,7 +24,7 @@ nav {
     nav a:hover {
       border-bottom: 1px solid black; }
   nav .right a {
-    padding: 15.25px 0; }
+    padding: 20px 0; }
   nav .left {
     display: -webkit-box;
     display: -webkit-flex;
