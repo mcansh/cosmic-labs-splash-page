@@ -3,7 +3,7 @@
   margin: 0; }
 
 body {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: HelveticaNeue, sans-serif;
   height: 100vh; }
 
 a {
@@ -81,9 +81,9 @@ nav {
     margin: 0 15px;
     font-weight: 400;
     font-size: 0.8em;
-    color: black;
+    color: #ccc;
     -webkit-transition: 100ms all ease-in-out;
             transition: 100ms all ease-in-out;
     text-transform: uppercase; }
     nav a:hover {
-      border-bottom: 1px solid black; }
+      color: black; }
