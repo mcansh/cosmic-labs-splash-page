@@ -52,13 +52,13 @@ header {
   header a.cta {
     color: white;
     margin: 40px 0;
-    padding: 13px 27px;
+    padding: 15px 30px;
     background: #2A2A2A;
     -webkit-transition: 200ms all ease-in-out;
             transition: 200ms all ease-in-out;
     text-transform: uppercase;
     font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue";
-    font-size: 1em; }
+    font-size: 0.9em; }
     header a.cta:hover {
       background: #191A19;
       color: white; }
