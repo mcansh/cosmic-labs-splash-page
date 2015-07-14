@@ -80,7 +80,7 @@ nav {
           align-items: center; }
   nav a {
     margin: 0 15px;
-    font-weight: 700;
+    font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue";
     font-size: 0.8em;
     color: #B6B6B7;
     -webkit-transition: 100ms all ease-in-out;
