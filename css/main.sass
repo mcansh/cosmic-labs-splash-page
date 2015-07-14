@@ -1,5 +1,6 @@
 @import "bourbon"
 @import "fonts.css"
+$HelveticaNeueMedium: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue"
 
 *
   margin: 0
@@ -45,13 +46,15 @@ header
   a.cta
     color: white
     margin: 40px 0
-    padding: 10px 40px
+    // padding: 10px 20px
+    padding: 13px 27px
     background: #2A2A2A
     transition: 200ms all ease-in-out
     text-transform: uppercase
     font:
-      family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue"
-      size: 1.2em
+      family: $HelveticaNeueMedium
+      // size: 1.1em
+      size: 1em
     &:hover
       background: #191A19
       color: white
@@ -70,7 +73,7 @@ nav
   a
     margin: 0 15px
     font:
-      family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue"
+      family: $HelveticaNeueMedium
       size: .8em
     color: #B6B6B7
     transition: 100ms all ease-in-out
