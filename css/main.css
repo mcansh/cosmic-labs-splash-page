@@ -32,7 +32,8 @@ header {
   height: 100vh; }
   header .brand {
     background-image: url(../img/logo.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     height: 135px;
     width: 135px;
@@ -87,4 +88,4 @@ nav {
             transition: 100ms all ease-in-out;
     text-transform: uppercase; }
     nav a:hover {
-      color: black; }
+      color: #363636; }
