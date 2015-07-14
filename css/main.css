@@ -39,7 +39,7 @@ header {
     width: 135px;
     margin-bottom: 20px; }
   header h1 {
-    font-family: "intro_bookregular";
+    font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue";
     font-size: 2.5em;
     font-weight: 300;
     padding: 0 0 20px 0;
