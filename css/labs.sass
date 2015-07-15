@@ -1,0 +1,66 @@
+@import "bourbon"
+@import "colors"
+@import "nav"
+@import url(http://fonts.googleapis.com/css?family=PT+Sans)
+@import url(http://fonts.googleapis.com/css?family=Lato)
+
+*
+  margin: 0px
+
+body
+  background: $off-white
+  font:
+    family: $HelveticaNeueRegular
+  .wrap
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding-top: 5vh
+    .brand
+      background:
+        image: url(../img/logo.svg)
+        size: contain
+        repeat: no-repeat
+        position: center
+      +size(135px)
+      margin-bottom: 20px
+    h1
+      font:
+        weight: 300
+        size: 3em
+      margin-bottom: 30px
+    h2
+      font:
+        weight: 200
+        size: 1.25em
+
+    .block
+      margin-top: 35px
+      padding: 30px 40px
+      max-width: 60vw
+      display: flex
+      flex-direction: row
+      .left
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        max-width: 50%
+        margin-right: 20px
+      h1
+        font-size: 2em
+      p
+        font-size: 1.25em
+
+    a.cta
+      color: white
+      margin: 35px 0
+      padding: 15px 30px
+      background: #2A2A2A
+      transition: 200ms all ease-in-out
+      text-transform: uppercase
+      font:
+        family: $HelveticaNeueMedium
+        size: 0.9em
+      &:hover
+        background: $almost-black-black
+        color: white

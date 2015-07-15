@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 100px;
+  padding: 20px 0;
+  line-height: 2.5em;
+  bottom: 0;
+  position: absolute;
+  width: 100vw;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  nav a {
+    margin: 0 15px;
+    font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue";
+    font-size: 0.8em;
+    color: #B6B6B7;
+    -webkit-transition: 100ms all ease-in-out;
+            transition: 100ms all ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none; }
+    nav a:hover {
+      color: #363636; }
+
+* {
+  margin: 0px; }
+
+body {
+  background: #f5f5f5;
+  font-family: "HelveticaNeueRegular", "HelveticaNeue-Regular", "Helvetica Neue Regular", "HelveticaNeue", "Helvetica Neue"; }
+  body .wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 5vh; }
+    body .wrap .brand {
+      background-image: url(../img/logo.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 135px;
+      width: 135px;
+      margin-bottom: 20px; }
+    body .wrap h1 {
+      font-weight: 300;
+      font-size: 3em;
+      margin-bottom: 30px; }
+    body .wrap h2 {
+      font-weight: 200;
+      font-size: 1.25em; }
+    body .wrap .block {
+      margin-top: 35px;
+      padding: 30px 40px;
+      max-width: 60vw;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      body .wrap .block .left {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        max-width: 50%;
+        margin-right: 20px; }
+      body .wrap .block h1 {
+        font-size: 2em; }
+      body .wrap .block p {
+        font-size: 1.25em; }
+    body .wrap a.cta {
+      color: white;
+      margin: 35px 0;
+      padding: 15px 30px;
+      background: #2A2A2A;
+      -webkit-transition: 200ms all ease-in-out;
+              transition: 200ms all ease-in-out;
+      text-transform: uppercase;
+      font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue";
+      font-size: 0.9em; }
+      body .wrap a.cta:hover {
+        background: #191A19;
+        color: white; }
