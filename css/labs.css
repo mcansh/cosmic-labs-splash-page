@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(font.css);
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
 @import url(http://fonts.googleapis.com/css?family=PT+Sans);
 @import url(http://fonts.googleapis.com/css?family=Lato);
 nav {
@@ -100,13 +100,13 @@ body {
         max-width: 50%;
         margin-right: 20px; }
         body .wrap .block .left h1:before {
-          content: "";
-          font-family: "Glyphicons Halflings";
+          content: "";
+          font-family: "FontAwesome";
           padding-right: 5px;
           font-size: 0.8em; }
       body .wrap .block .right h1:before {
-        content: "";
-        font-family: "Glyphicons Halflings";
+        content: "";
+        font-family: "FontAwesome";
         padding-right: 5px;
         font-size: 0.8em; }
       body .wrap .block h1 {
