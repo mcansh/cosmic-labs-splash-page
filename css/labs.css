@@ -100,15 +100,15 @@ body {
         max-width: 50%;
         margin-right: 20px; }
         body .wrap .block .left h1:before {
-          content: "";
+          content: "";
           font-family: "Glyphicons Halflings";
           padding-right: 5px;
-          font-size: 0.85em; }
+          font-size: 0.8em; }
       body .wrap .block .right h1:before {
         content: "";
         font-family: "Glyphicons Halflings";
         padding-right: 5px;
-        font-size: 0.85em; }
+        font-size: 0.8em; }
       body .wrap .block h1 {
         font-size: 2em;
         display: -webkit-box;
