@@ -99,13 +99,15 @@ body {
         max-width: 50%;
         margin-right: 20px; }
         body .wrap .block .left h1:before {
-          content: "";
+          content: "";
           font-family: "Glyphicons Halflings";
-          padding-right: 5px; }
+          padding-right: 5px;
+          font-size: 0.85em; }
       body .wrap .block .right h1:before {
-        content: "";
+        content: "";
         font-family: "Glyphicons Halflings";
-        padding-right: 5px; }
+        padding-right: 5px;
+        font-size: 0.85em; }
       body .wrap .block h1 {
         font-size: 2em;
         display: -webkit-box;
@@ -126,6 +128,7 @@ body {
       -webkit-transition: 200ms all ease-in-out;
               transition: 200ms all ease-in-out;
       text-transform: uppercase;
+      text-decoration: none;
       font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue";
       font-size: 0.9em; }
       body .wrap a.cta:hover {
