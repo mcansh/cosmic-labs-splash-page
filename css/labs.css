@@ -68,7 +68,8 @@ body {
       margin-bottom: 30px; }
     body .wrap h2 {
       font-weight: 200;
-      font-size: 1.25em; }
+      font-size: 1.25em;
+      color: #4E4D4D; }
     body .wrap .block {
       margin-top: 35px;
       padding: 30px 40px;
@@ -119,7 +120,8 @@ body {
             -ms-flex-align: center;
                 align-items: center; }
       body .wrap .block p {
-        font-size: 1em; }
+        font-size: 1em;
+        color: #4E4D4D; }
     body .wrap a.cta {
       color: white;
       margin: 35px 0;
