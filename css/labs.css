@@ -1,3 +1,5 @@
+@charset "UTF-8";
+@import url(font.css);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans);
 @import url(http://fonts.googleapis.com/css?family=Lato);
 nav {
@@ -96,8 +98,24 @@ body {
                 justify-content: flex-start;
         max-width: 50%;
         margin-right: 20px; }
+        body .wrap .block .left h1:before {
+          content: "";
+          font-family: "Glyphicons Halflings";
+          padding-right: 5px; }
+      body .wrap .block .right h1:before {
+        content: "";
+        font-family: "Glyphicons Halflings";
+        padding-right: 5px; }
       body .wrap .block h1 {
-        font-size: 2em; }
+        font-size: 2em;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center; }
       body .wrap .block p {
         font-size: 1em; }
     body .wrap a.cta {

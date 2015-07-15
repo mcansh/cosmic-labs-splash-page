@@ -29,6 +29,12 @@ nav {
     nav a:hover {
       color: #363636; }
 
+@font-face {
+  font-family: 'glyphicons_halflingsregular';
+  src: url("../font/glyphicons-halflings-regular-webfont.eot");
+  src: url("../font/glyphicons-halflings-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/glyphicons-halflings-regular-webfont.woff2") format("woff2"), url("../font/glyphicons-halflings-regular-webfont.woff") format("woff"), url("../font/glyphicons-halflings-regular-webfont.ttf") format("truetype"), url("../font/glyphicons-halflings-regular-webfont.svg#glyphicons_halflingsregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 * {
   margin: 0; }
 
