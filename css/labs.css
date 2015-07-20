@@ -1,7 +1,5 @@
 @charset "UTF-8";
-@import "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
-@import url(http://fonts.googleapis.com/css?family=PT+Sans);
-@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 nav {
   display: -webkit-box;
   display: -webkit-flex;
@@ -54,7 +52,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     padding-top: 5vh; }
-    body .wrap .brand {
+    body .wrap a .brand {
       background-image: url(../img/logo.svg);
       background-size: contain;
       background-repeat: no-repeat;
