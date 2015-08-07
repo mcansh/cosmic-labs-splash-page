@@ -1,13 +1,34 @@
+@import "bourbon"
+@import "vars"
+
+.toggle
+  +position(fixed, 15px auto 0 20px)
+  color: black
+  font-size: 24px
+  transition: 300ms all ease-in-out
+
+#toggler
+  display: none
+  &:checked + .wrap
+    nav
+      left: 0px
+    .toggle
+      left: 140px
+
+
 nav
   display: flex
-  max-height: 100px
+  height: 100px
   padding: 20px 0
   line-height: 2.5em
   bottom: 0
   position: absolute
   width: 100vw
   justify-content: center
+  flex-direction: row
+  flex-wrap: wrap
   align-items: center
+  transition: 300ms all ease-in-out
   a
     margin: 0 15px
     font:
@@ -20,3 +41,24 @@ nav
       decoration: none
     &:hover
       color: $dark-gray-brown
+
+
+@media (max-width: 600px)
+  nav
+    flex-direction: column
+    align-items: baseline
+    justify-content: flex-start
+    flex-wrap: nowrap
+    +position(fixed, 0px 0 0px -200px)
+    background: #FFAD51
+    width: 130px
+    height: 100vh
+    a
+      color: white
+      font-size: 16px
+  .toggle
+    display: inline
+
+@media (min-width: 601px)
+  .toggle
+    display: none

@@ -1,61 +1,85 @@
 @import "bourbon"
-@import "colors"
+@import "vars"
 @import "nav"
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css)
 *
   margin: 0
+  box-sizing: border-box
+
+*:before,
+*:after
+  box-sizing: border-box
+
+html,
+body
+  height: 100%
+  position: relative
 
 body
   font:
     family: HelveticaNeue, sans-serif
-  height: 100vh
   background: $off-white
 
 a
   text-decoration: none
 
-header
+.wrap
   display: flex
   flex-direction: column
   justify-content: center
   align-items: center
   text-align: center
   height: 100vh
-  .brand
-    background:
-      image: url(../img/logo.svg)
-      size: contain
-      repeat: no-repeat
-      position: center
-    +size(135px)
-    margin-bottom: 20px
-  h1
-    font:
-      family: $HelveticaNeueRegular
-      size: 2.5em
-      weight: 300
-    padding: 0 0 20px 0
-    color: $almost-black
-  h2
-    font:
-      size: 1.2em
-      weight: 300
-    padding: 0
-    color: $gray-brown
+  min-height: 100vh /* will cover the 100% of viewport */
+  overflow: hidden
+  position: relative
+  padding-bottom: 100px /* height of your footer */
+.brand
+  background:
+    image: url(../img/logo.svg)
+    size: contain
+    repeat: no-repeat
+    position: center
+  +size(135px)
+  margin-bottom: 20px
+h1
+  font:
+    family: $HelveticaNeueRegular
+    size: 2.5em
+    weight: 300
+  padding: 0 0 20px 0
+  color: $almost-black
+h2
+  font:
+    size: 1.2em
+    weight: 300
+  padding: 0
+  color: $gray-brown
 
-  a.cta
+a.cta
+  color: white
+  margin: 35px 0
+  padding: 15px 30px
+  background: #2A2A2A
+  transition: 200ms all ease-in-out
+  text-transform: uppercase
+  font:
+    family: $HelveticaNeueMedium
+    size: 0.9em
+  &:hover
+    background: $almost-black-black
     color: white
-    margin: 35px 0
-    padding: 15px 30px
-    background: #2A2A2A
-    transition: 200ms all ease-in-out
-    text-transform: uppercase
-    font:
-      family: $HelveticaNeueMedium
-      size: 0.9em
-    &:hover
-      background: $almost-black-black
-      color: white
 
+@media (max-width: 600px)
+  .wrap
+    height: auto
+    h1
+      max-width: 75vw
+    h2
+      max-width: 80vw
+    .cta
+      margin: 20px 0 0 0
 
-// add mobile media query
+@media (max-width: 325px)
+  .brand
+    +size(100px)
