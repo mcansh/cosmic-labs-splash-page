@@ -160,10 +160,71 @@ h2 {
   padding: 0;
   color: #4E4D4D; }
 
+.blah {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .blah .btn {
+    margin-left: 10px;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    text-indent: 101%;
+    white-space: nowrap;
+    -webkit-transition: 0.15s all ease-in-out;
+            transition: 0.15s all ease-in-out;
+    border: 2px #B6B6B7 solid; }
+    .blah .btn:hover {
+      border-color: #363636; }
+  .blah .img-1 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/douglas.jpg);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-filter: blur(1.5px);
+            filter: blur(1.5px);
+    -webkit-transition: 0.15s all ease-in-out;
+            transition: 0.15s all ease-in-out; }
+    .blah .img-1:hover {
+      -webkit-filter: blur(0px);
+              filter: blur(0px); }
+  .blah .img-2 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/damon.jpg);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-filter: blur(1.5px);
+            filter: blur(1.5px);
+    -webkit-transition: 0.15s all ease-in-out;
+            transition: 0.15s all ease-in-out; }
+    .blah .img-2:hover {
+      -webkit-filter: blur(0px);
+              filter: blur(0px); }
+
 a.cta {
   color: white;
   margin: 35px 0;
-  padding: 15px 30px;
+  padding: 16.5px 30px;
   background: #2A2A2A;
   -webkit-transition: 200ms all ease-in-out;
           transition: 200ms all ease-in-out;

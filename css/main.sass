@@ -55,11 +55,54 @@ h2
     weight: 300
   padding: 0
   color: $gray-brown
+.blah
+  display: flex
+  align-items: center
+  justify-content: center
+  .btn
+    margin-left: 10px
+    position: relative
+    +size(50px)
+    +hide-text
+    transition: .15s all ease-in-out
+    border: 2px $grey solid
+    &:hover
+      border-color: $dark-gray-brown
+
+  .img-1
+    position: absolute
+    +size(50px)
+    background:
+      image: url(../img/douglas.jpg)
+      size: cover
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    filter: blur(1.5px)
+    transition: .15s all ease-in-out
+    &:hover
+      filter: blur(0px)
+  .img-2
+    position: absolute
+    +size(50px)
+    background:
+      image: url(../img/damon.jpg)
+      size: cover
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    filter: blur(1.5px)
+    transition: .15s all ease-in-out
+    &:hover
+      filter: blur(0px)
+
 
 a.cta
   color: white
   margin: 35px 0
-  padding: 15px 30px
+  padding: 16.5px 30px
   background: #2A2A2A
   transition: 200ms all ease-in-out
   text-transform: uppercase
