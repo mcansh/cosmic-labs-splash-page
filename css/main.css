@@ -205,10 +205,10 @@ h2 {
     white-space: nowrap;
     -webkit-transition: 0.15s all ease-in-out;
             transition: 0.15s all ease-in-out;
-    border: 2px #B6B6B7 solid; }
+    border: 2px #2A2A2A solid; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\0000369}}
     .blah .btn:hover {
-      border-color: #363636; }
+      border-color: #191A19; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\0000372}}
   .blah .img-1 {
     position: absolute;
