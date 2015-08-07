@@ -1,4 +1,5 @@
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/nav\.sass}line{font-family:\000034}}
 .toggle {
   position: fixed;
   top: 15px;
@@ -10,13 +11,17 @@
   -webkit-transition: 300ms all ease-in-out;
           transition: 300ms all ease-in-out; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/nav\.sass}line{font-family:\0000310}}
 #toggler {
   display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/nav\.sass}line{font-family:\0000313}}
   #toggler:checked + .wrap nav {
     left: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/nav\.sass}line{font-family:\0000315}}
   #toggler:checked + .wrap .toggle {
     left: 140px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/nav\.sass}line{font-family:\0000319}}
 nav {
   display: -webkit-box;
   display: -webkit-flex;
@@ -46,6 +51,7 @@ nav {
           align-items: center;
   -webkit-transition: 300ms all ease-in-out;
           transition: 300ms all ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/nav\.sass}line{font-family:\0000332}}
   nav a {
     margin: 0 15px;
     font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue";
@@ -55,10 +61,12 @@ nav {
             transition: 100ms all ease-in-out;
     text-transform: uppercase;
     text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/nav\.sass}line{font-family:\0000342}}
     nav a:hover {
       color: #363636; }
 
 @media (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/nav\.sass}line{font-family:\0000347}}
   nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -84,35 +92,44 @@ nav {
     background: #FFAD51;
     width: 130px;
     height: 100vh; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/nav\.sass}line{font-family:\0000356}}
     nav a {
       color: white;
       font-size: 16px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/nav\.sass}line{font-family:\0000359}}
   .toggle {
     display: inline; } }
 @media (min-width: 601px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/nav\.sass}line{font-family:\0000363}}
   .toggle {
     display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\000035}}
 * {
   margin: 0;
   box-sizing: border-box; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\000039}}
 *:before,
 *:after {
   box-sizing: border-box; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\0000313}}
 html,
 body {
   height: 100%;
   position: relative; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\0000318}}
 body {
   font-family: HelveticaNeue, sans-serif;
   background: #f5f5f5; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\0000323}}
 a {
   text-decoration: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\0000326}}
 .wrap {
   display: -webkit-box;
   display: -webkit-flex;
@@ -138,6 +155,7 @@ a {
   position: relative;
   padding-bottom: 100px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\0000337}}
 .brand {
   background-image: url(../img/logo.svg);
   background-size: contain;
@@ -147,6 +165,7 @@ a {
   width: 135px;
   margin-bottom: 20px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\0000345}}
 h1 {
   font-family: "HelveticaNeueRegular", "HelveticaNeue-Regular", "Helvetica Neue Regular", "HelveticaNeue", "Helvetica Neue";
   font-size: 2.5em;
@@ -154,12 +173,14 @@ h1 {
   padding: 0 0 20px 0;
   color: #2A2A2A; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\0000352}}
 h2 {
   font-size: 1.2em;
   font-weight: 300;
   padding: 0;
   color: #4E4D4D; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\0000358}}
 .blah {
   display: -webkit-box;
   display: -webkit-flex;
@@ -173,6 +194,7 @@ h2 {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\0000362}}
   .blah .btn {
     margin-left: 10px;
     position: relative;
@@ -184,43 +206,49 @@ h2 {
     -webkit-transition: 0.15s all ease-in-out;
             transition: 0.15s all ease-in-out;
     border: 2px #B6B6B7 solid; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\0000369}}
     .blah .btn:hover {
       border-color: #363636; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\0000372}}
   .blah .img-1 {
     position: absolute;
     height: 50px;
     width: 50px;
     background-image: url(../img/douglas.jpg);
     background-size: cover;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: -2px;
+    left: -2px;
+    right: 2px;
     bottom: 0;
     -webkit-filter: blur(1.5px);
             filter: blur(1.5px);
     -webkit-transition: 0.15s all ease-in-out;
             transition: 0.15s all ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\0000384}}
     .blah .img-1:hover {
       -webkit-filter: blur(0px);
               filter: blur(0px); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\0000386}}
   .blah .img-2 {
     position: absolute;
     height: 50px;
     width: 50px;
     background-image: url(../img/damon.jpg);
     background-size: cover;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: -2px;
+    left: -2px;
+    right: 2px;
     bottom: 0;
     -webkit-filter: blur(1.5px);
             filter: blur(1.5px);
     -webkit-transition: 0.15s all ease-in-out;
             transition: 0.15s all ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\0000398}}
     .blah .img-2:hover {
       -webkit-filter: blur(0px);
               filter: blur(0px); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\00003102}}
 a.cta {
   color: white;
   margin: 35px 0;
@@ -231,20 +259,26 @@ a.cta {
   text-transform: uppercase;
   font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue";
   font-size: 0.9em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\00003112}}
   a.cta:hover {
     background: #191A19;
     color: white; }
 
 @media (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\00003117}}
   .wrap {
     height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\00003119}}
     .wrap h1 {
       max-width: 75vw; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\00003121}}
     .wrap h2 {
       max-width: 80vw; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\00003123}}
     .wrap .cta {
       margin: 20px 0 0 0; } }
 @media (max-width: 325px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/loganmcansh\/Dropbox\/web\/github\/Douglas\%20Bumby\/cosmiclabsio\.github\.io\/css\/main\.sass}line{font-family:\00003127}}
   .brand {
     height: 100px;
     width: 100px; } }
