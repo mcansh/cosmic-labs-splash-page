@@ -6,15 +6,6 @@
   margin: 0
   box-sizing: border-box
 
-*:before,
-*:after
-  box-sizing: border-box
-
-html,
-body
-  height: 100%
-  position: relative
-
 body
   font:
     family: HelveticaNeue, sans-serif
@@ -30,7 +21,7 @@ a
   align-items: center
   text-align: center
   height: 100vh
-  min-height: 100vh /* will cover the 100% of viewport */
+  // min-height: 100vh /* will cover the 100% of viewport */
   overflow: hidden
   position: relative
   padding-bottom: 100px /* height of your footer */
@@ -40,7 +31,7 @@ a
     size: contain
     repeat: no-repeat
     position: center
-  +size(135px)
+  +size(110px)
   margin-bottom: 20px
 h1
   font:
@@ -60,14 +51,14 @@ a.cta
   color: white
   margin: 35px 0
   padding: 16.5px 30px
-  background: #2A2A2A
+  background: #819F7F
   transition: 200ms all ease-in-out
   text-transform: uppercase
   font:
     family: $HelveticaNeueMedium
     size: 0.9em
   &:hover
-    background: $almost-black-black
+    background: #718D6F
     color: white
 
 @media (max-width: 600px)
