@@ -21,14 +21,12 @@ nav
   height: 100px
   padding: 20px 0
   line-height: 2.5em
-  // bottom: 0
-  // position: absolute
   width: 100vw
+  position: relative
   justify-content: center
   flex-direction: row
   flex-wrap: wrap
   align-items: center
-  transition: 300ms all ease-in-out
   a
     margin: 0 15px
     font:
@@ -45,3 +43,7 @@ nav
 @media (max-width: 600px)
   nav
     padding: 0 40px
+@media (min-width: 601px)
+  nav
+    bottom: 0
+    position: absolute
