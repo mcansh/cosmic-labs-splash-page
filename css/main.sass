@@ -21,10 +21,9 @@ a
   align-items: center
   text-align: center
   height: 100vh
-  // min-height: 100vh /* will cover the 100% of viewport */
-  overflow: hidden
-  position: relative
-  padding-bottom: 100px /* height of your footer */
+  // overflow: hidden
+  // position: relative
+  // padding-bottom: 100px /* height of your footer */
 .brand
   background:
     image: url(../img/logo.svg)
@@ -63,14 +62,19 @@ a.cta
 
 @media (max-width: 600px)
   .wrap
-    height: auto
+    height: calc(100vh - 100px)
+    .brand
+      margin-top: 20px
     h1
       max-width: 75vw
+      font-size: 30px
     h2
       max-width: 80vw
     .cta
       margin: 20px 0 0 0
-
 @media (max-width: 325px)
   .brand
     +size(100px)
+  .wrap
+    h1
+      font-size: 26px
